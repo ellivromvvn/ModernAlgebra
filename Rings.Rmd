@@ -9,4 +9,7 @@ author: |
 date: "March 30, 2019"
 output: pdf_document
 ---
+<<<<<<< HEAD
 Suppose R
+=======
+>>>>>>> 507159596c627df6a63ca3040ff30db3327c035c
