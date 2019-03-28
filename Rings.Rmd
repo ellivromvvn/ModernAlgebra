@@ -9,3 +9,12 @@ author: |
 date: "March 30, 2019"
 output: pdf_document
 ---
+The most general algebraic structure with two binary operations is called a *ring*.
+
+#### **Definition**
+
+A **ring** $\langle R,\:+,\:\cdot\rangle$ is a set $R$ together with two binary operations $+$ and $\cdot$, which we call *addition* and *multiplication* defined on $R$ such that the following axioms are satisfied $a,\: b \in R$:
+
+1. $\langle R,\:+,\:\cdot\rangle$ is an abelian group under addition.
+    a. The book.
+    b. The light.
