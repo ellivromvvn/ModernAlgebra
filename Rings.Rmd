@@ -1,0 +1,11 @@
+---
+title: Modern Algebra
+subtitle: Definitions and Basic Properties of a Ring
+author: |
+  | Orville D. Hombrebueno
+  | odhombrebueno@nvsu.edu.ph
+  |
+  | Saint Mary's University
+date: "March 30, 2019"
+output: pdf_document
+---

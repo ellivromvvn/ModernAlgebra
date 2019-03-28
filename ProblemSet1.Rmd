@@ -1,0 +1,22 @@
+---
+title: "Problem Set 1"
+author: "Orville D. Hombrebueno"
+date: "February 21, 2019"
+output: pdf_document
+---
+
+1. Does the group $Z_{41}^{*}$
+    a. has a group of order 3?
+        - Yes. $|Z_{4}^{*}|=3$, $Z_{4}^{*}$ is a subset of $Z_{41}^{*}$ and is a group since:
+          
+          G1. $\:\:a, b \in Z_{4}^{*}$; $\: \: a\cdot_{4} b \in Z_{4}^{*}$
+          
+          G2. $\:\:a, b \:\text{and}\: c \in Z_{4}^{*}$; $\:\: (a \cdot_{4} b) \cdot_{4} c = a \cdot_{4} (b \cdot_{4} c)$
+          
+$$
+\begin{aligned}
+&(1 \cdot_{4} 2) \cdot_{4} 3 = 1 \cdot_{4} (2 \cdot_{4} 3)\\
+&= c + \phi_i Y_{i-1} \dots
+\end{aligned}
+$$
+            
