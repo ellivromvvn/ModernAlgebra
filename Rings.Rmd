@@ -11,10 +11,16 @@ output: pdf_document
 ---
 The most general algebraic structure with two binary operations is called a *ring*.
 
-#### **Definition**
+***Definition***
 
-A **ring** $\langle R,\:+,\:\cdot\rangle$ is a set $R$ together with two binary operations $+$ and $\cdot$, which we call *addition* and *multiplication* defined on $R$ such that the following axioms are satisfied $a,\: b \in R$:
+A **ring** $\langle R,\:+,\:\cdot\rangle$ is a set $R$ together with two binary operations $+$ and $\cdot$, which we call *addition* and *multiplication* defined on $R$ such that the following axioms are satisfied $\forall \:\:a,\: b \in R$:
 
-1. $\langle R,\:+,\:\cdot\rangle$ is an abelian group under addition.
-    a. The book.
-    b. The light.
+1. $\langle R,\:+\rangle$ is an abelian group.
+    a. $a+b \in R$. (Closure)
+    b. $a+(b+c)=(a+b)+c$. (Associative)
+    c. $\exists \:\:0 \in R$ s.t. $a+0=0+a=a$. (Identity)
+    d. $\forall \:\:a\in R,$ $\exists \:\:-a\in R$ s.t. $a+-a=-a+a=0$. (Inverse)
+    e. $a+b=b+a$. (Commutative)
+2. $R$ is closed under $\cdot$, $a \cdot b\in R$.
+3. Multiplication is associative, $a\cdot(b\cdot c)=(a\cdot b)\cdot c$.
+4. $\forall \:\:a,\:b,\:c\in R$, the **left distributive law**, $a\cdot(b+c)=(a\cdot b)+(a\cdot c)$ and the **right distributive law** $(a+b)\cdot c=(a\cdot c)+(b\cdot c)$ hold. $\blacksquare$
