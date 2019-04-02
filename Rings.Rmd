@@ -1,19 +1,21 @@
 ---
 title: Modern Algebra
-subtitle: Definitions and Basic Properties of a Ring
+subtitle: Rings and Subrings
 author: |
   | Orville D. Hombrebueno
   | odhombrebueno@nvsu.edu.ph
   |
   | Saint Mary's University
 date: "March 30, 2019"
-output: pdf_document
+output: 
+  pdf_document: 
+    keep_tex: yes
 ---
 The most general algebraic structure with two binary operations is called a *ring*.
 
 ***Definition***
 
-A **ring** $\langle R,\:+,\:\cdot\rangle$ is a set $R$ together with two binary operations $+$ and $\cdot$, which we call *addition* and *multiplication* defined on $R$ such that the following axioms are satisfied $\forall \:\:a,\: b \in R$:
+A **ring** $\langle R,\:+,\:\cdot\rangle$ is a *set* $R$ together with two binary operations $+$ and $\cdot$, which we call *addition* and *multiplication* defined on $R$ such that the following axioms are satisfied $\forall \:\:a,\: b,\:c \in R$:
 
 1. $\langle R,\:+\rangle$ is an abelian group.
     a. $a+b \in R$. (Closure)
@@ -24,3 +26,49 @@ A **ring** $\langle R,\:+,\:\cdot\rangle$ is a set $R$ together with two binary 
 2. $R$ is closed under $\cdot$, $a \cdot b\in R$.
 3. Multiplication is associative, $a\cdot(b\cdot c)=(a\cdot b)\cdot c$.
 4. $\forall \:\:a,\:b,\:c\in R$, the **left distributive law**, $a\cdot(b+c)=(a\cdot b)+(a\cdot c)$ and the **right distributive law** $(a+b)\cdot c=(a\cdot c)+(b\cdot c)$ hold. $\blacksquare$
+
+**Examples**
+
+For example, $\langle\mathbb{Z},+\:,\cdot\rangle$, $\langle\mathbb{Q},+\:,\cdot\rangle$, $\langle\mathbb{R},+\:,\cdot\rangle$, and $\langle\mathbb{C},+\:,\cdot\rangle$ are rings. 
+
+Let $R$ be any ring and let $M_{n}(R)$ be the collection of all $n\times n$ matrices having elements of $R$ as entries. $M_{n}(R)$ is a ring. In particular, we have the rings $M_{n}(\mathbb{Z})$, $M_{n}(\mathbb{Q})$, $M_{n}(\mathbb{R})$, and $M_{n}(\mathbb{C})$. Note that multiplication is not a commutative operation in any of these rings for $n\ge 2$.
+
+Let $F$ be the set of all functions $f:\mathbb{R}\longrightarrow \mathbb{R}$. $F$ is a ring.
+
+Recall that in group theory, $n\mathbb{Z}$ is the cyclic subgroup of $\mathbb{Z}$ under addition consisting of all integer multiples of the integer $n$. $n\mathbb{Z}$ is a ring.
+
+$\mathbb{Z}_{n}$ is a ring.
+
+If $R_{1},\: R_{2},\dotsb,R_{n}$ are rings, we can form the set $R_{1}\times R_{2}\times\dotsb\times R_{n}$ of all ordered $n$-tuples $(r_{1},\:r_{2},\dotsb,r_{n})$, where $r_{i}\in R_{i}$. The set of all these $n$-tuples forms a ring under addition and multiplication by components. The ring $R_{1}\times R_{2}\times\dotsb\times R_{n}$ is the **direct product** of the rings $R_{i}$.
+
+**Remarks**
+
+- A ring that is commutative under multiplication is called a *commutative ring*.
+- $R$ is a ring with *unity* if $\forall \:\:a \in R$, $\exists\:\: 1\in R$  s.t. $1\cdot a=a\cdot 1=a$.
+- $R$ is a ring with a *unit* if $\forall\:\:a \in R$, $\exists\:\: a^{-1}\in R$ s.t. $a\cdot a^{-1}=a^{-1}\cdot a=1$.
+
+\clearpage
+
+***Properties of a Ring***
+
+Suppose $R$ is a ring, $\forall\:\:a,\: b \in R$ the following holds:
+
+1. $0\cdot a=0$,
+2. $0\ne 1$ (unless $R=\{0\}$),
+3. $a\cdot (-b)=-(a\cdot b)$,
+4. $(-a)\cdot (-b)=a\cdot b$,
+5. $(-1)\cdot a=-a$. $\blacksquare$
+
+***Definition***
+
+Suppose $R$ is a ring. A set $S$ is a **subring** of $R$ if:
+
+1. $S\subseteq R$,
+2. $S$ is a ring under the operations of $R$. $\blacksquare$
+
+**Subring Test**
+
+1. Closure($+$)
+2. Closure($\cdot$)
+3. $0\in S$
+4. $\forall a \in S, \exists\:\: -a\in S$
