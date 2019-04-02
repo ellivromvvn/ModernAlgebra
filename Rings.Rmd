@@ -7,9 +7,7 @@ author: |
   |
   | Saint Mary's University
 date: "March 30, 2019"
-output: 
-  pdf_document: 
-    keep_tex: yes
+output: pdf_document
 ---
 The most general algebraic structure with two binary operations is called a *ring*.
 
