@@ -66,7 +66,23 @@ Suppose $R$ is a ring. A set $S$ is a **subring** of $R$ if:
 
 **Subring Test**
 
-1. Closure($+$)
-2. Closure($\cdot$)
-3. $0\in S$
-4. $\forall a \in S, \exists\:\: -a\in S$
+$S\le R$ if the following holds for $S$:
+
+1. Closure($+$).
+2. Closure($\cdot$).
+3. $0\in S$.
+4. $\forall a \in S, \exists\:\: -a\in S$.
+
+**Example**
+
+Subring Proof
+
+$S=\lbrace\dotsb,-6,-3,0,3,6,\dotsb\rbrace\le\mathbb{Z}$
+
+$S=\lbrace 3\cdot m \:|\: m\in\mathbb{Z}\rbrace$
+
+1. Closure($+$).
+
+  Let $a, b$ in 
+
+
