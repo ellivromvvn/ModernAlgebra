@@ -75,7 +75,7 @@ $S\le R$ if the following holds for $S$:
 
 **Example**
 
-Subring Proof
+Subring Proof:
 
 $S=\lbrace\dotsb,-6,-3,0,3,6,\dotsb\rbrace\le\mathbb{Z}$
 
